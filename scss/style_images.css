@@ -1,0 +1,14 @@
+.image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  background-size: cover;
+  background-position: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-animation: imagesFading 44s infinite;
+  animation: imagesFading 44s infinite;
+}
+/*# sourceMappingURL=style_images.css.map */

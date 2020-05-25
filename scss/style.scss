@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+@import 'style_images';
+
+.image_01 {background-image: url(../img/gg-room-min.png); animation-delay: 32s;}
+
+.image_02 {background-image: url(../img/window-min.png); animation-delay: 30s;}
+
+.image_03 {background-image: url(../img/410-stop-min.png); animation-delay: 28s;}
+
+.image_04 {background-image: url(../img/end-night-min.png); animation-delay: 26s;}
+
+.image_05 {background-image: url(../img/bus-inside-day-min.png); animation-delay: 24s;}
+
+.image_06 {background-image: url(../img/road-day-min.png); animation-delay: 22s;}
+
+.image_07 {background-image: url(../img/bus410-day-min.png); animation-delay: 20s;}
+
+.image_08 {background-image: url(../img/workshop-outside-evening-min.png); animation-delay: 18s;}
+
+.image_09 {background-image: url(../img/camp-day-min.png); animation-delay: 16s;}
+
+.image_10 {background-image: url(../img/port-day-min.png); animation-delay: 14s;}
+
+.image_11 {background-image: url(../img/home-outside-day-min.png); animation-delay: 12s;}
+
+.image_12 {background-image: url(../img/home-inside-day-min.png); animation-delay: 10s;}
+
+.image_13 {background-image: url(../img/genda-evening-min.png); animation-delay: 8s;}
+
+.image_14 {background-image: url(../img/playfield-evening-min.png); animation-delay: 6s;}
+
+.image_15 {background-image: url(../img/dining-room-day-min.png); animation-delay: 4s;}
+
+.image_16 {background-image: url(../img/forest-day-min.png); animation-delay: 2s;}
+
+.image_17 {background-image: url(../img/camp-evening-min.png); animation-delay: 0s;}
+
+@keyframes imagesFading {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.text{
+  p{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.445);
+  border-radius: 5px;
+  font-size: 40px;
+  color: rgb(163, 197, 9);
+  text-align: center;
+  }
+}
+@media(max-width: 1530px){
+  .text{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+  }
+}
+@media(max-width: 768px){
+  .text{
+    font-size: 35px;
+  }
+  .image{
+    background-image: url(../img/end-night.png)
+  }
+}
+
+@media(max-width: 375px){
+  .text{
+    font-size: 20px;
+    color: rgb(255, 217, 0);
+  }
+  .image{
+    background-image: url(../img/gg-room.png);
+  }
+}
