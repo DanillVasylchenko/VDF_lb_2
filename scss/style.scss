@@ -77,14 +77,18 @@ html, body{
 }
 @media(max-width: 1530px){
   .text{
-    font-size: 50px;
-    color: rgb(255, 255, 255);
+    p{
+      font-size: 50px;
+      color: rgb(255, 255, 255);
+    }
   }
 }
 @media(max-width: 768px){
   .text{
-    font-size: 35px;
-  }
+    p{
+      font-size: 35px;
+    }
+  } 
   .image{
     background-image: url(../img/end-night.png)
   }
@@ -92,10 +96,12 @@ html, body{
 
 @media(max-width: 375px){
   .text{
+    p{
     font-size: 20px;
     color: rgb(255, 217, 0);
+    }
   }
   .image{
-    background-image: url(../img/gg-room.png);
+    background-image: url(../img/end-night.png)
   }
 }
