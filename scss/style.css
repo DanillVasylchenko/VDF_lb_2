@@ -174,14 +174,14 @@ html, body {
 }
 
 @media (max-width: 1530px) {
-  .text {
+  .text p {
     font-size: 50px;
     color: white;
   }
 }
 
 @media (max-width: 768px) {
-  .text {
+  .text p {
     font-size: 35px;
   }
   .image {
@@ -190,12 +190,12 @@ html, body {
 }
 
 @media (max-width: 375px) {
-  .text {
+  .text p {
     font-size: 20px;
     color: #ffd900;
   }
   .image {
-    background-image: url(../img/gg-room.png);
+    background-image: url(../img/end-night.png);
   }
 }
 /*# sourceMappingURL=style.css.map */
